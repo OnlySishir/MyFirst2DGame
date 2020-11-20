@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8fc6469d54c4450fb85aed9501c71e8, type: 3}
+  m_Name: A3
+  m_EditorClassIdentifier: 
+  storyText: "You go down the canyon and find a large river, do you stay and set
+    up for the night or follow the river? \n\n1.) Stay\n\n2.) Follow River"
+  nextStates:
+  - {fileID: 11400000, guid: dfb42d166f7e6485e8a5a04d576759c8, type: 2}
+  - {fileID: 11400000, guid: de14a7eb835784bac9e0d38fe56d1791, type: 2}
