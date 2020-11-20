@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8fc6469d54c4450fb85aed9501c71e8, type: 3}
+  m_Name: A2
+  m_EditorClassIdentifier: 
+  storyText: "You follow the rim of the canyon, and see a small fire ahead, waht
+    do you do? \n\n1.) Investigate\n\n2.) Go down the canyon"
+  nextStates:
+  - {fileID: 11400000, guid: a2f40556805364efab7c80c0b83012db, type: 2}
+  - {fileID: 11400000, guid: ca4df9d2b62864028aeb30acfdc82ec3, type: 2}
